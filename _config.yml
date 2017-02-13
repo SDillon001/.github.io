@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "0.0.0.0" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
@@ -19,10 +19,10 @@ theme_settings:
 
   # Icons
   rss: false
-  email_address: "stevedillon001@gmail.com" # Full email address, e.g. "sam@example.com"
+  email_address:  # Full email address, e.g. "sam@example.com"
   behance: "SteveDillon"
   bitbucket:
-  dribbble: "SDillon001"
+  dribbble: 
   facebook: "SteveDillonDesigns"
   flickr:
   github: "SDillon001"
