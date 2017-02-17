@@ -1,10 +1,13 @@
 ---
 layout: post
 title: Why Web Dev?
+excerpt_separator: <!--more-->
 ---
+
 <h3 style="text-align: center;">[ - A Classic Non Sequitur - ]</h3>
 
 I started off as an [artist](http://stevedillon.net/art/). What was once a classroom distraction turned into a full blown obsession, one I pursued all the way through University. During my undergrad, I worked hard and learned how to paint and draw what was placed in front of me. Models, still life's, landscapes, but at that time, if you asked me to draw or paint whatever I wanted, I blanked. That was, until I had an epiphany my Junior year.
+<!--more-->
 
 {:.center}
 ![]({{ site.baseurl }}/img/ocean-paint.jpg)
