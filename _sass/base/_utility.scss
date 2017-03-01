@@ -6,9 +6,9 @@
   }
 }
 %padding-regular {
-  padding: $padding-small $padding-large;
+  padding: $padding-small $padding-regular;
   @media (max-width: 1000px) {
-    padding: $padding-small * 1.5 $padding-large / 1.6;
+    padding: $padding-small * 1.5 $padding-regular / 1.6;
   }
 }
 %link-hover {

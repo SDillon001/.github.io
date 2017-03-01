@@ -1,3 +1,9 @@
+/*
+*, *:before, *:after {
+border: 1px solid red;
+}
+*/
+
 // Header text feature
 .call-out {
   @extend %padding-regular;
@@ -36,17 +42,22 @@
 
 // Work listing
 .work {
+
+  padding: 2% 2%;
+  float: left;
+
   h2 {
     text-align: center;
+
   }
-  @extend %padding-regular;
+  @extend %padding-small;
   background-size: $feature-image-size;
   border-bottom: 1px solid $border-color;
   li {
-    width: 32%;
+    width: 100%;
     margin-right:0.5%;
     margin-left:0.5%;
-    margin-bottom: 0;
+    margin-bottom: 40px;
     display: inline-block;
     p a:hover {
       @extend %link-hover;
@@ -56,6 +67,26 @@
     margin-top: 1em;
   }
 }
+
+// Projects
+
+.projects {
+    margin-top: 5%;
+    margin-right: .5%;
+    width: 49%;
+    float: left;
+}
+
+.projects-description {
+    margin-bottom: 20px;
+}
+
+// Posts
+
+.posts {
+    float: left;
+}
+
 // Pagination
 .pagination .button {
   margin: 0 1.5em;
@@ -64,6 +95,6 @@
   }
 }
 .pagination {
-  padding: $padding-small $padding-large 0 $padding-large;
+  padding: $padding-small $padding-small 0 $padding-small;
   text-align: center;
 }
