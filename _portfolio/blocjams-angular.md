@@ -6,16 +6,12 @@ thumbnail-path: "img/bloc-jams-angjs-homepage-thumb.png"
 short-description: BlocJams AngularJS project website - Bloc Online Bootcamp - Jan/June 2017
 
 ---
-<!-- This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages. -->
 
-# Bloc-Jams Case Study
-
-{:.center}
-[![]({{ site.baseurl }}/img/bloc-jams-angjs-post.png)](http://stevedillon.net/bloc/bloc-jams/)
+# Bloc-Jams Angular Case Study
 
 ## Project Summary
 ___
-**[Bloc Jams](http://stevedillon.net/bloc/bloc-jams/)** is a digital music player project application built during the [Bloc Front-End Web Developer](https://www.bloc.io/) course. It is made up of HTML, CSS, JavaScript and jQuery. For learning purposes, the first version of Bloc Jams was written with vanilla JavaScript and then re-factored into jQuery for the final version of the application.
+**[Bloc Jams Angular](http://bloc-jams-angular.stevedillon.net/)** is a digital music player project application built during the [Bloc Front-End Web Developer](https://www.bloc.io/) course. It is made up of HTML, CSS and Angular JS. For learning purposes, the first version of Bloc Jams was written with vanilla JavaScript, re-factored into jQuery then re-factored with Angular JS for this final version of the application.
 
 ## Background
 ___
@@ -24,12 +20,12 @@ This application is one of three projects completed during the Front-End Foundat
 
 Students were provided with the logo, icons, background images and mp3 music files for use in the site.
 
-## Objective
+<!-- ## Objective
 ___
 
-The main function of the **Bloc Jams** application is to display an album view and play music files. The project began with creating the landing page and a link to an album 'collection' view (pictured below).
+The main function of the **Bloc Jams Angular** application is to display an album view and play music files. The project began with creating the landing page and a link to an album 'collection' view (pictured below).
 
-[![]({{ site.baseurl }}/img/bloc-jams-collection-view.png)](http://stevedillon.net/bloc/bloc-jams/album.html)
+[![]({{ site.baseurl }}/images/case/bloc-jams-collection-view.png)](http://stevedillon.net/bloc/bloc-jams/album.html)
 
 The album cover and title information were created dynamically by creating an album template using JavaScript in a function called `buildCollectionItemTemplate`:
 
@@ -73,7 +69,7 @@ ___
 
 Students were also tasked with creating a songplayer UI (pictured below) that would be linked to by clicking on an album name on the album collection view page.
 
-[![]({{ site.baseurl }}/img/bloc-jams-album-page-post.png)](http://stevedillon.net/bloc/bloc-jams/album.html)
+[![]({{ site.baseurl }}/images/case/bloc-jams-album-page-post.png)](http://stevedillon.net/bloc/bloc-jams/album.html)
 
 In addition to a song list, the project requirements included the ability to switch between song tracks, pause, play and update the total duration in minutes for each track. Song transition was needed in two locations, in the song list grid in the center of the album page as well as at the buttons in the player bar at the bottom of the page. 
 
@@ -176,10 +172,6 @@ The result is a fully functioning, digital music player created using HTML5, CSS
 ## Conclusion
 ___
 
-When I took this project on, I had limited experience with JavaScript, therefore, this project was a bit challenging for me. In the end, I gained a greater understanding of how to add functionality to an application using JavaScript, skills that I will no doubt apply to future projects.
-
-
-
-
+When I took this project on, I had limited experience with JavaScript, therefore, this project was a bit challenging for me. In the end, I gained a greater understanding of how to add functionality to an application using JavaScript, skills that I will no doubt apply to future projects. -->
 
 
