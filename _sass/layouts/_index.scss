@@ -45,14 +45,14 @@ border: 1px solid red;
 
   padding: 2% 2%;
   float: left;
-
+@extend %padding-small;
+  background-size: $feature-image-size;
+  border-bottom: 1px solid $border-color;
   h2 {
     text-align: center;
 
   }
-  @extend %padding-small;
-  background-size: $feature-image-size;
-  border-bottom: 1px solid $border-color;
+  
   li {
     width: 100%;
     margin-right:0.5%;
